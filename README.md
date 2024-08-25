@@ -1,8 +1,8 @@
 # Beta Kobra Fixer
-Filter for MCEdit 1.0 for fixing Kobras for Minecraft Java Edition Beta 1.7 - 1.4.7
+## Filter for MCEdit 1.0 for fixing Kobras for Minecraft Java Edition Beta 1.7 - 1.4.7
 
 Minecraft now has Kobras in the very first version pistons got added, you can watch this video for more information - [How to Generate a Spawner in MCJE Beta 1.7](https://youtu.be/G6L-5owxID4).  
-Kimo made a mod that allowes to constantly power detector rails (as if they always have minecarts on them), this greatly speeds up the development of Kobras, since we don't need to worry about minecarts. This MCEdit filter is made so you can convert builds made with such mod into Kobras that work in Vanilla single player.
+Kimo made a mod that allowes to constantly power detector rails (as if they always have minecarts on them), this greatly speeds up the development of Kobras, since we don't need to worry about minecarts. This MCEdit filter is made so you can convert builds made with such mod into Kobras that work in vanilla single player.
 
 ## What this filter does?
 It does two things:
@@ -30,6 +30,8 @@ It does two things:
 
 2. Now select **Filter** tool, find "Beta Kobra Fixer" tool and click "Filter". You can also toggle an option to change all detector rails to default data value (this is needed to fix sloped rails on upwards extensions).
 ![image](https://github.com/user-attachments/assets/36012ce4-a8ca-4ddd-b473-164c8c31304e)
+
+3. Save the world by pressing **Ctrl + S**.
 
 ## License
 This program is licensed under the MIT License. Please read the License file to know about the usage terms and conditions.
