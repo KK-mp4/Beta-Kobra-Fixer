@@ -2,12 +2,12 @@
 ## Filter for MCEdit 1.0 for fixing Kobras for Minecraft Java Edition Beta 1.7 - 1.4.7
 
 Minecraft now has Kobras in the very first version pistons got added, you can watch this video for more information - [How to Generate a Spawner in MCJE Beta 1.7](https://youtu.be/G6L-5owxID4).  
-Kimo made a mod that allowes to constantly power detector rails (as if they always have minecarts on them), this greatly speeds up the development of Kobras, since we don't need to worry about minecarts. This MCEdit filter is made so you can convert builds made with such mod into Kobras that work in vanilla single player.
+[Kimo made a mod](https://github.com/kimoVoid/BetaCMP) that allowes to constantly power detector rails (as if they always have minecarts on them), this greatly speeds up the development of Kobras, since we don't need to worry about minecarts. This MCEdit filter is made so you can convert builds made with such mod into Kobras that work in vanilla single player.
 
 ## What this filter does?
 It does two things:
 - places a minecart above each detector rail;
-- changes data value of all rails to 0, so there are no sloped rails.
+- changes data value of all rails, so there are no sloped rails.
 
 ## How to install
 1. Download [32 bit MCEdit](https://www.reddit.com/r/GoldenAgeMinecraft/comments/opfrb2/mcedit_for_beta/) and open mcedit.exe
@@ -21,8 +21,9 @@ It does two things:
 ![image](https://github.com/user-attachments/assets/0e30be3a-b4a2-4319-a732-e4a9c685d2d0)
 
 5. Now reload filters by selectind different tool in tool box and going back to **Filter**, now you can find Beta Kobra Fixer filter!  
-![image](https://github.com/user-attachments/assets/9f67cc79-7fa7-4404-819a-00505c13e292)
+![image](https://github.com/user-attachments/assets/2b217023-5f11-44cf-b295-4fb3dc8a55e4)
 
+6. By default filter sets all detector rails data value to 8 (powered north-south), you can modify the value to your needs: https://minecraft.wiki/w/Detector_Rail#Data_history
 
 ## How to use
 1. Box select your Kobra that needs fixing using **Select** tool.
@@ -32,6 +33,10 @@ It does two things:
 ![image](https://github.com/user-attachments/assets/36012ce4-a8ca-4ddd-b473-164c8c31304e)
 
 3. Save the world by pressing **Ctrl + S**.
+
+## Change log
+- v1.0 Added the ability to change all rails to data value 0 (unpowered north-south) and place minecart on them.
+- v1.1 Fixed default data value to 8 (powered north-south) and added ability to change it. Fixed a bug where entity UUID is bigger than 32-bit signed integer
 
 ## License
 This program is licensed under the MIT License. Please read the License file to know about the usage terms and conditions.
